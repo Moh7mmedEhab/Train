@@ -16,11 +16,9 @@
 
      height: 100vh;
 
-     overflow-x: hidden;
+     overflow: hidden;
 
      display: flex;
-
-     justify-content: center;
 
      align-items: center;
 
@@ -30,7 +28,7 @@
 
      position: absolute;
 
-     left: -150%;
+     left: calc(-2525px * 1.5);
 
      display: flex;
 
@@ -41,8 +39,6 @@
      align-items: flex-end;
 
      gap: 5px;
-
-     padding: 10px;
 
  }
 

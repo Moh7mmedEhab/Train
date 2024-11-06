@@ -4,7 +4,13 @@ let position = train.offsetLeft;
 
 let screenWidth = window.innerWidth;
 
-let speed = 15;
+let speed = 20;
+
+window.addEventListener("resize", () => {
+
+    let screenWidth = window.innerWidth;
+
+});
 
 function trainMove() {
 
@@ -14,7 +20,7 @@ function trainMove() {
 
     if (position >= screenWidth) {
 
-        position = (-screenWidth * 1.5);
+        position = (-2525 * 1.5);
 
     }
 
